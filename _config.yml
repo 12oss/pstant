@@ -74,7 +74,7 @@ destination:      docs
 #host:             0.0.0.0
 port:             12077
 baseurl:          ""
-url:              "http://pstant.com"
+url:              "https://12oss.github.io/pstant/"
 encoding:         UTF-8
 
 
