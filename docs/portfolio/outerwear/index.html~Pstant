@@ -1,0 +1,50 @@
+--- layout: default title: Pamela Stant | Outerwear description: This was a cross-functional effort to highlight the Squall&reg; outerwear collection for kids. This experience included two videos, details of outerwear features, and animated slides. All video concepts were lead by the group creative director with input from the design team. ---
+<style>
+</style>
+<div class="creative-content">
+	<!-- begin INTRO-->
+	<section>
+		<div class="row" style="max-width:1120px; margin:auto; padding-top:30px; padding-bottom:15px;">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-md-push-8">
+				<div id="project-description-container">
+					<!-- PROJECT NAV-->
+					<div class="project-nav">
+						<a class="prev-proj" href="/portfolio/boys-textures"><i class="fa fa-angle-left fa-2x"></i></a>
+						<a class="next-proj" href="/portfolio/back-to-school"><i class="fa fa-angle-right fa-2x"></i></a>
+					</div>
+					<!-- PROJECT NAV-->
+					<h1 class="portfolio-title">Kids&#8217; outerwear experience at landsend.com</h1>
+					<p class="portfolio-description">This was a cross-functional effort to highlight the Squall&reg; outerwear collection for kids. This experience included two videos&#8218; details of outerwear features&#8218; and animated slides. All video concepts were lead by the group creative director with input from the design team. The Squallhouse video was outsourced to an agency and the Squall-has-it-all video was produced in-house. The custom font used was drawn by an in-house illustrator and used for a seamless omni-channel experience throughout the season.</p>
+					<p class="portfolio-description">
+						Tasks included:
+						<ul>
+							<li>art direction and design execution</li>
+							<li>initial video concepts</li>
+							<li>design for animated details</li>
+							<li>digital presentation</li>
+						</ul>
+					</p>
+					<!--<p class="portfolio-description">Live Link:<br>
+					<a class="orange-link">http://www.landsend.com</a>
+					</p>-->
+				</div>
+			</div>
+			<div id="portfolio-art-container" class="col-xs-12 col-sm-12 col-md-8 col-md-pull-4">
+				<img src="images/ow_01.jpg" width="100%">
+				<img src="images/ow_02.jpg" width="100%">
+				<img src="images/ow_03.jpg" width="100%">
+			</div>
+			<!-- PROJECT NAV-->
+			<div class="row visible-xs visible-sm">
+				<div class="col-xs-12 col-sm-12">
+					<div class="project-nav" style="text-align: center;">
+						<a class="prev-proj" href="/portfolio/boys-textures"><i class="fa fa-angle-left fa-2x"></i></a>
+						<a class="next-proj" href="/portfolio/back-to-school"><i class="fa fa-angle-right fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- PROJECT NAV-->
+		</div>
+	</section>
+	<!-- end intro-->
+</div>

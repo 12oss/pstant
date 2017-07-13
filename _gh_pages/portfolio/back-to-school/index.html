@@ -1,0 +1,91 @@
+---
+layout: default
+title: Pamela Stant | Back to School Campaign
+description: These samples are part of the back-to-school campaign for kids. The first day looks experience shown below included shopping bundles to give the customer the option of buying the entire outfit or individual products.
+---
+<style>
+</style>
+<div class="creative-content">
+	<!-- begin INTRO-->
+	<section>
+		<div class="row" style="max-width:1120px; margin:auto; padding-top:30px; padding-bottom:15px;">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-md-push-8">
+				<div id="project-description-container">
+					<!-- PROJECT NAV-->
+					<div class="project-nav">
+						<a class="prev-proj" href="/portfolio/outerwear"><i class="fa fa-angle-left fa-2x"></i></a>
+						<a class="next-proj" href="/portfolio/editorial"><i class="fa fa-angle-right fa-2x"></i></a>
+					</div>
+					<!-- PROJECT NAV-->
+					<h1 class="portfolio-title">Back-to-school campaign at landsend.com</h1>
+					<p class="portfolio-description">These samples are part of the back-to-school campaign for kids. The first day looks experience shown below included shopping bundles to give the customer the option of buying the entire outfit or individual products. The concept for the video was a collaboration with the in-house team and an outside agency. I was responsible for storyboarding and art directing the agency that produced the video.</p>
+					<p class="portfolio-description">
+						Tasks included:
+						<ul>
+							<li>site design and execution</li>
+							<li>omni-channel alignment</li>
+							<li>creative for digital marketing</li>
+							<li>concept for first day looks (still life photography)</li>
+							<li>art direction for video and first day looks</li>
+						</ul>
+					</p>
+					<!--<p class="portfolio-description">Live Link:<br>
+					<a class="orange-link">http://www.landsend.com</a>
+					</p>-->
+				</div>
+			</div>
+			<div id="portfolio-art-container" class="col-xs-12 col-sm-12 col-md-8 col-md-pull-4">
+				<img src="images/bts_01.jpg" width="100%">
+				<img src="images/bts_02.jpg" width="100%">
+				<img src="images/bts_03.jpg" width="100%">
+				<!-- modal trigger-->
+				<a data-toggle="modal" data-target="#bts-vid" style="cursor:pointer">
+					<img src="images/bts_04.jpg" width="100%">
+				</a>
+				<!-- Modal -->
+				<div class="modal fade" id="bts-vid" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Iron Knee Video</h4>
+							</div>
+							<div class="modal-body" id="yt-player">
+								<!-- 16:9 aspect ratio -->
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe id="player" class="embed-responsive-item" src="//www.youtube.com/embed/k22YRJfCLdY?rel=0&wmode=Opaque&enablejsapi=1&autohide=2" frameborder="0"></iframe>
+								</div>
+							</div>
+							<!--<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- PROJECT NAV-->
+			<div class="row visible-xs visible-sm">
+				<div class="col-xs-12 col-sm-12">
+					<div class="project-nav" style="text-align: center;">
+						<a class="prev-proj" href="/portfolio/outerwear"><i class="fa fa-angle-left fa-2x"></i></a>
+						<a class="next-proj" href="/portfolio/editorial"><i class="fa fa-angle-right fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- PROJECT NAV-->
+		</div>
+	</section>
+	<!-- end intro-->
+</div>
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+<script type="text/javascript" src="/global/js/yt-player.js"></script>
+<script>
+//ACTION for player in modal
+$('#bts-vid').on('hidden.bs.modal', function() {
+	callPlayer('yt-player', 'pauseVideo');
+});
+$('#bts-vid').on('shown.bs.modal', function() {
+	callPlayer('yt-player', 'playVideo');
+});
+</script>
+
